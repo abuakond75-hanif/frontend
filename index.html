@@ -1,21 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Waste-Well – Recycle Products</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <meta property="og:image" content="https://bolt.new/static/og_default.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      property="og:image"
+      content="https://bolt.new/static/og_default.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://bolt.new/static/og_default.png"
+    />
+  </head>
   <body>
     <nav id="navbar">
       <div class="nav-container">
-        <div class="logo">Waste-Well</div>
+        <!-- <div class="logo">  Waste-Well</div> -->
+        <!-- logo  -->
+        <!-- LOGO SECTION -->
+        <!-- <div class="">
+        <img src="images/Waste-Well.png" 
+             alt="Waste-Well Logo" 
+             class="logo-img">
+        <span>Waste-Well</span>
+      </div> -->
+        <!-- logo-end -->
+        <div class="logo">
+          <img
+            src="images/Waste-Well.png"
+            alt="Waste-Well Logo"
+            class="logo-img"
+            height="20px"
+            width="20px"
+          />
+          <span>Waste-Well</span>
+        </div>
+
         <ul class="nav-links">
           <li><a href="#hero">Home</a></li>
           <li><a href="#products">Products</a></li>
@@ -28,8 +58,13 @@
 
     <section id="hero">
       <video autoplay muted loop playsinline id="hero-video">
-        <source src="./videos/hero.mp4" type="video/mp4">
+        <source src="./public/videos/hero.mp4" type="video/mp4" />
       </video>
+      <!-- <video 
+       autoplay muted loop playsinline id="hero-video">
+        <source src="./videos/hero.mp4" type="video/mp4" />
+        src="./video.mp4"
+      </video> -->
       <div class="hero-content">
         <h1>Green Revolution for a Better Future</h1>
         <p>REDUCE • RECYCLE • REUSE</p>
@@ -40,34 +75,63 @@
     <section id="products">
       <div class="container">
         <h2>Our Eco-Friendly Products</h2>
-        <p class="section-subtitle">Sustainable furniture made from recycled plastic waste</p>
+        <p class="section-subtitle">
+          Sustainable furniture made from recycled plastic waste
+        </p>
         <div class="product-grid">
           <div class="product-card">
-            <img src="https://images.pexels.com/photos/2079294/pexels-photo-2079294.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Planter Seat Bench">
-            <h3>Planter Seat Bench</h3>
-            <p class="product-price">$450</p>
+            <img src="images/chair-table-eco.webp" alt="Planter Seat Bench" />
+            <h3>Chair And Table</h3>
+            <p class="product-price">1550</p>
           </div>
           <div class="product-card">
-            <img src="https://images.pexels.com/photos/3268732/pexels-photo-3268732.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Sloper Seat Bench">
-            <h3>Sloper Seat Bench</h3>
-            <p class="product-price">$380</p>
+            <img src="images/chair-eco.webp" alt="Sloper Seat Bench" />
+            <h3>Chair</h3>
+            <p class="product-price">380</p>
           </div>
           <div class="product-card">
-            <img src="https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A Frame Table">
+            <img src="images/table-eco.webp" alt="A Frame Table" />
             <h3>A Frame Standard Table</h3>
-            <p class="product-price">$520</p>
+            <p class="product-price">520</p>
           </div>
           <div class="product-card">
-            <img src="https://images.pexels.com/photos/1707820/pexels-photo-1707820.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Marina Decking">
-            <h3>Marina Decking</h3>
-            <p class="product-price">$85/sqm</p>
+            <img
+              src="images/pond-desk-eco.jpg?auto=compress&cs=tinysrgb&w=800"
+              alt="Pond Decking"
+            />
+            <h3>Pond Decking</h3>
+            <p class="product-price">12,000 TK</p>
           </div>
-          <!-- ⭐ NEW ECO-BRICKS PRODUCT CARD ⭐ -->
-      <div class="product-card">
-        <img src="https://i.imgur.com/NU8iYvS.jpeg" alt="Eco-Bricks">
-        <h3>Eco-Bricks</h3>
-        <p class="product-price">$2.5 per brick</p>
-      </div>
+          <!-- NEW ECO-BRICKS PRODUCT CARD -->
+          <div class="product-card">
+            <img
+              src="images/brick-eco.avif?auto=compress&cs=tinysrgb&w=800"
+              alt="Eco-Bricks"
+            />
+            <h3>Eco-Bricks</h3>
+            <p class="product-price">2.5 per brick</p>
+          </div>
+          <!-- NEW ECO-Tob PRODUCT CARD -->
+          <div class="product-card">
+            <img
+              src="images/eco-tob.jpg?auto=compress&cs=tinysrgb&w=800"
+              alt="Eco-Bricks"
+            />
+            <h3>Eco-Tob</h3>
+            <p class="product-price">2.5 per brick</p>
+          </div>
+          <!-- NEW ECO-Bench PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/bench-eco.jpg" alt="Eco-Bricks" />
+            <h3>Eco-Bricks</h3>
+            <p class="product-price">2.5 per brick</p>
+          </div>
+          <!-- NEW ECO-Bench  PRODUCT CARD -->
+          <div class="product-card">
+            <img src="images/slooper-eco-b.jpg" alt="Eco-Bricks" />
+            <h3>Smart Bench</h3>
+            <p class="product-price">2.5 per brick</p>
+          </div>
         </div>
       </div>
     </section>
@@ -75,7 +139,12 @@
     <section id="about">
       <div class="about-content">
         <h2>The Plastic Waste Crisis</h2>
-        <p>In Dhaka, 646 tonnes of plastic waste are collected daily, comprising ~10% of the city's total waste. Nationwide, only ~21% of single-use bottles are recycled, leaving ~79% mismanaged. We're transforming this crisis into opportunity.</p>
+        <p>
+          In Dhaka, 646 tonnes of plastic waste are collected daily, comprising
+          ~10% of the city's total waste. Nationwide, only ~21% of single-use
+          bottles are recycled, leaving ~79% mismanaged. We're transforming this
+          crisis into opportunity.
+        </p>
         <a href="#how-it-works" class="discover-btn">Discover Our Solution</a>
       </div>
     </section>
@@ -88,22 +157,34 @@
           <div class="step">
             <div class="step-number">1</div>
             <h3>Localized Hubs</h3>
-            <p>Mini recycling hubs for efficient collection, sorting, and processing of plastic waste in communities.</p>
+            <p>
+              Mini recycling hubs for efficient collection, sorting, and
+              processing of plastic waste in communities.
+            </p>
           </div>
           <div class="step">
             <div class="step-number">2</div>
             <h3>IoT Smart Bins</h3>
-            <p>Utilizing IoT-enabled bins for precise waste tracking and real-time monitoring of collection data.</p>
+            <p>
+              Utilizing IoT-enabled bins for precise waste tracking and
+              real-time monitoring of collection data.
+            </p>
           </div>
           <div class="step">
             <div class="step-number">3</div>
             <h3>Community Engagement</h3>
-            <p>Partnering with municipalities and schools for awareness drives and education programs.</p>
+            <p>
+              Partnering with municipalities and schools for awareness drives
+              and education programs.
+            </p>
           </div>
           <div class="step">
             <div class="step-number">4</div>
             <h3>Buy-Back System</h3>
-            <p>Community earns cash for returned plastics, incentivizing participation in recycling efforts.</p>
+            <p>
+              Community earns cash for returned plastics, incentivizing
+              participation in recycling efforts.
+            </p>
           </div>
         </div>
       </div>
@@ -112,103 +193,162 @@
     <section id="blog">
       <div class="container">
         <h2>Latest Insights</h2>
-        <p class="section-subtitle">Stay informed about our impact and sustainable practices</p>
+        <p class="section-subtitle">
+          Stay informed about our impact and sustainable practices
+        </p>
         <div class="blog-grid">
           <div class="blog-card">
-            <img src="https://images.pexels.com/photos/3850512/pexels-photo-3850512.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Recycling Impact">
-            <h3>Our Impact in 2024</h3>
-            <p>We've successfully diverted over 500 tonnes of plastic waste from landfills, creating sustainable products for communities.</p>
+            <img src="images/2048.webp" alt="Recycling Impact" />
+            <h3>Our Impact in 2025</h3>
+            <p>
+              We've successfully diverted over 50 tonnes of plastic waste from
+              landfills, creating sustainable products for communities.
+            </p>
             <a href="#" class="read-more">Read More →</a>
           </div>
           <div class="blog-card">
-            <img src="https://images.pexels.com/photos/9324336/pexels-photo-9324336.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Community Program">
+            <img
+              src="https://images.pexels.com/photos/9324336/pexels-photo-9324336.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Community Program"
+            />
             <h3>Pilot Program Success in Manikganj</h3>
-            <p>Our pilot program in Manikganj has demonstrated remarkable success, engaging 25 households and collecting 2 tonnes of recyclable plastic monthly.</p>
+            <p>
+              Our pilot program in Manikganj has demonstrated remarkable
+              success, engaging 25 households and collecting 1 tonnes of
+              recyclable plastic monthly.
+            </p>
             <a href="#" class="read-more">Read More →</a>
           </div>
           <div class="blog-card">
-            <img src="https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Sustainable Products">
+            <img
+              src="https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Sustainable Products"
+            />
             <h3>Why Choose Recycled Furniture</h3>
-            <p>Discover the benefits of eco-friendly furniture: durable, affordable, and environmentally responsible for a sustainable future.</p>
+            <p>
+              Discover the benefits of eco-friendly furniture: durable,
+              affordable, and environmentally responsible for a sustainable
+              future.
+            </p>
             <a href="#" class="read-more">Read More →</a>
           </div>
           <div class="blog-card">
-            <img src="https://images.pexels.com/photos/6281245/pexels-photo-6281245.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Future Plans">
+            <img
+              src="https://images.pexels.com/photos/6281245/pexels-photo-6281245.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Future Plans"
+            />
             <h3>Expanding Across Bangladesh</h3>
-            <p>Our vision includes establishing recycling hubs in 10 major cities by 2026, creating jobs and reducing environmental impact.</p>
+            <p>
+              Our vision includes establishing recycling hubs in 10 major cities
+              by 2026, creating jobs and reducing environmental impact.
+            </p>
             <a href="#" class="read-more">Read More →</a>
           </div>
         </div>
 
         <div class="newsletter">
           <h3>Subscribe to Our Newsletter</h3>
-          <p>Get updates on our latest products, impact stories, and recycling initiatives</p>
+          <p>
+            Get updates on our latest products, impact stories, and recycling
+            initiatives
+          </p>
           <form id="newsletter-form">
-            <input type="email" placeholder="Enter your email" required>
+            <input type="email" placeholder="Enter your email" required />
             <button type="submit">Subscribe</button>
           </form>
         </div>
       </div>
     </section>
     <!-- team Member -->
-     <section id="team">
-  <div class="container">
-    <h2>Meet Our Team</h2>
-    <p class="section-subtitle">The people behind Waste-Well’s green revolution</p>
+    <section id="team">
+      <div class="container">
+        <h2>Meet Our Team</h2>
+        <p class="section-subtitle">
+          The people behind Waste-Well’s green revolution
+        </p>
 
-    <div class="team-grid">
+        <div class="team-grid">
+          <!-- Organizer -->
+          <div class="team-card">
+            <img
+              src="images/eduardo-gorghetto-CS3WuMvmGfE-unsplash.jpg"
+              alt="Organizer"
+            />
+            <h3>Organizer</h3>
+            <p class="team-role">Project Lead</p>
+            <p>
+              Responsible for planning, coordination, and successful
+              implementation of Waste-Well's recycling initiatives.
+            </p>
+          </div>
 
-      <!-- Organizer -->
-      <div class="team-card">
-        <img src="https://i.imgur.com/3G3QnQK.png" alt="Organizer" />
-        <h3>Organizer</h3>
-        <p class="team-role">Project Lead</p>
-        <p>Responsible for planning, coordination, and successful implementation of Waste-Well's recycling initiatives.</p>
+          <!-- Co-Organizer -->
+          <div class="team-card">
+            <img
+              src="images/eduardo-gorghetto-CS3WuMvmGfE-unsplash.jpg"
+              alt="Co-Organizer"
+            />
+            <h3>Co-Organizer</h3>
+            <p class="team-role">Operations Manager</p>
+            <p>
+              Supports daily operations, manages community engagement, and
+              ensures smooth execution of project activities.
+            </p>
+          </div>
+
+          <!-- Advisor -->
+          <div class="team-card">
+            <img
+              src="images/eduardo-gorghetto-CS3WuMvmGfE-unsplash.jpg"
+              alt="Advisor"
+            />
+            <h3>Advisor</h3>
+            <p class="team-role">Strategic Advisor</p>
+            <p>
+              Provides strategic direction, business advice, and guidance to
+              strengthen Waste-Well’s long-term vision.
+            </p>
+          </div>
+
+          <!-- Climate Expert -->
+          <div class="team-card">
+            <img
+              src="images/eduardo-gorghetto-CS3WuMvmGfE-unsplash.jpg"
+              alt="Climate Expert"
+            />
+            <h3>Climate Expert</h3>
+            <p class="team-role">Environmental Specialist</p>
+            <p>
+              Analyzes environmental impact, oversees sustainability practices,
+              and ensures climate-friendly solutions.
+            </p>
+          </div>
+        </div>
       </div>
-
-      <!-- Co-Organizer -->
-      <div class="team-card">
-        <img src="https://i.imgur.com/Ztt1y4T.png" alt="Co-Organizer" />
-        <h3>Co-Organizer</h3>
-        <p class="team-role">Operations Manager</p>
-        <p>Supports daily operations, manages community engagement, and ensures smooth execution of project activities.</p>
-      </div>
-
-      <!-- Advisor -->
-      <div class="team-card">
-        <img src="https://i.imgur.com/NiY2mhE.png" alt="Advisor" />
-        <h3>Advisor</h3>
-        <p class="team-role">Strategic Advisor</p>
-        <p>Provides strategic direction, business advice, and guidance to strengthen Waste-Well’s long-term vision.</p>
-      </div>
-
-      <!-- Climate Expert -->
-      <div class="team-card">
-        <img src="https://i.imgur.com/n1NvltS.png" alt="Climate Expert" />
-        <h3>Climate Expert</h3>
-        <p class="team-role">Environmental Specialist</p>
-        <p>Analyzes environmental impact, oversees sustainability practices, and ensures climate-friendly solutions.</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
+    </section>
 
     <footer>
       <div class="container">
         <div class="footer-content">
           <div class="footer-section">
             <h4>Waste-Well</h4>
-            <p>Transforming plastic waste into sustainable products for a greener Bangladesh. Our pilot program in Manikganj has successfully engaged 25 households, demonstrating the viability of community-based recycling initiatives.</p>
+            <p>
+              Transforming plastic waste into sustainable products for a greener
+              Bangladesh. Our pilot program in Manikganj has successfully
+              engaged 25 households, demonstrating the viability of
+              community-based recycling initiatives.
+            </p>
           </div>
           <div class="footer-section">
             <h4>Products</h4>
             <ul>
-              <li><a href="#products">Planter Seat Bench - $450</a></li>
-              <li><a href="#products">Sloper Seat Bench - $380</a></li>
-              <li><a href="#products">A Frame Table - $520</a></li>
-              <li><a href="#products">Marina Decking - $85/sqm</a></li>
+              <li><a href="#products">Planter Seat Bench - 450 TK</a></li>
+              <li><a href="#products">Sloper Seat Bench - 380 TK</a></li>
+              <li><a href="#products">A Frame Table - 1520 TK</a></li>
+              <li><a href="#products">Marina Decking - 12,000 TK</a></li>
+              <li><a href="#products">Table Set - 380 TK</a></li>
+              <li><a href="#products">Chair - 1520 TK</a></li>
+              <li><a href="#products">Eco-Bricks - 12,000 TK</a></li>
             </ul>
           </div>
           <div class="footer-section">
@@ -222,13 +362,25 @@
           </div>
           <div class="footer-section">
             <h4>Our Impact</h4>
-            <p><strong>High Demand:</strong> Growing market for eco-friendly outdoor furniture in Bangladesh.</p>
-            <p><strong>Competitive Pricing:</strong> 30% lower than traditional materials while maintaining quality.</p>
-            <p><strong>Environmental Impact:</strong> Each product diverts 50-100kg of plastic from landfills.</p>
+            <p>
+              <strong>High Demand:</strong> Growing market for eco-friendly
+              outdoor furniture in Bangladesh.
+            </p>
+            <p>
+              <strong>Competitive Pricing:</strong> 30% lower than traditional
+              materials while maintaining quality.
+            </p>
+            <p>
+              <strong>Environmental Impact:</strong> Each product diverts
+              50-100kg of plastic from landfills.
+            </p>
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2024 Waste-Well. All rights reserved. | Supporting SDG 11 & SDG 13</p>
+          <p>
+            &copy; 2025 Waste-Well. All rights reserved. | Supporting SDG 11 &
+            SDG 13
+          </p>
         </div>
       </div>
     </footer>
